@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{35103DE0-4B59-4527-9913-697B00E49463}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Data\Projects\Perso\WalletScanning\WalletScanning\App.xaml.cs" relfile="WalletScanning\App.xaml.cs" line="37" column="1" />
+      <Breakpoint file="C:\Data\Projects\Perso\WalletScanning\Droid\Extensions.cs" relfile="Droid\Extensions.cs" line="27" column="1" />
+      <Breakpoint file="C:\Data\Projects\Perso\WalletScanning\Droid\GcmService.cs" relfile="Droid\GcmService.cs" line="95" column="1" />
+      <Breakpoint file="C:\Data\Projects\Perso\WalletScanning\Droid\GcmService.cs" relfile="Droid\GcmService.cs" line="49" column="1" />
+      <Breakpoint file="C:\Data\Projects\Perso\WalletScanning\Droid\MainActivity.cs" relfile="Droid\MainActivity.cs" line="36" column="1" />
+      <Breakpoint file="C:\Data\Projects\Perso\WalletScanning\Droid\GcmService.cs" relfile="Droid\GcmService.cs" line="32" column="1" />
+      <Breakpoint file="C:\Data\Projects\Perso\WalletScanning\Droid\GcmService.cs" relfile="Droid\GcmService.cs" line="35" column="1" />
+      <Breakpoint file="C:\Data\Projects\Perso\WalletScanning\Droid\GcmService.cs" relfile="Droid\GcmService.cs" line="68" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WalletScanning.Droid PreferredExecutionTarget="Android.a9b22334" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\GcmService.cs">
+    <Files>
+      <File FileName="WalletScanning\ICardIO.cs" Line="14" Column="13" />
+      <File FileName="WalletScanning\CardType.cs" Line="1" Column="1" />
+      <File FileName="WalletScanning\CardIOResult.cs" Line="1" Column="1" />
+      <File FileName="WalletScanning\CardIOConfig.cs" Line="1" Column="1" />
+      <File FileName="WalletScanning\App.xaml" Line="1" Column="1" />
+      <File FileName="WalletScanning\CardIOPCL.cs" Line="8" Column="18" />
+      <File FileName="Droid\CardIO.cs" Line="55" Column="1" />
+      <File FileName="Droid\MainActivity.cs" Line="33" Column="18" />
+      <File FileName="WalletScanning\App.xaml.cs" Line="46" Column="25" />
+      <File FileName="Droid\Extensions.cs" Line="27" Column="1" />
+      <File FileName="Droid\PushHandlerBroadcastReceiver.cs" Line="12" Column="52" />
+      <File FileName="Droid\GcmService.cs" Line="26" Column="16" />
+      <File FileName="Droid\Properties\AndroidManifest.xml" Line="2" Column="153" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

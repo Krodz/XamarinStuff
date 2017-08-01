@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{54F8BBEF-0235-4B0E-905C-F54A692D8EAF}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>WalletScanning</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)WalletScanningPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)WalletScanningPage.xaml.cs">
+      <DependentUpon>WalletScanningPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ICardIO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CardIOPCL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CardIOConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CardIOResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CardType.cs" />
+  </ItemGroup>
+</Project>
